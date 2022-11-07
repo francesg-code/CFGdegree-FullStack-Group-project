@@ -58,7 +58,9 @@ To get started with the project, please download the repository and open in a co
     database: "hba",
     });
     ```
-- Open a terminal in VS Code, navigate to the `Fullstack_Nanodegree_Group2/server` directory and run `node index.js` to run the server on port 3001. You should see 'server running' output in the terminal.
+- Open a terminal in VS Code, navigate to the `Fullstack_Nanodegree_Group2/server` directory.
+- Run the command ```npm install``` in the terminal to install the necessary packages.
+- To run the server on port 3001, please run the command `node index.js`. You should see 'server running' output in the terminal.
 
 > Next, start the react-app.
 - Open a second terminal in VS Code using the + icon and navigate to the react-frontend directory (Fullstack_Nanodegree_Group2/react-frontend)

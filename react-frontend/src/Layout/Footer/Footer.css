@@ -1,0 +1,23 @@
+.App-footer {
+  background-color: #a7dafb;
+  color: white;
+  margin-top: 40px;
+  padding: 10px;
+}
+
+.footerWhite a {
+  color: white;
+  width: 500px;
+}
+
+.socialMedia a {
+  font-size: 40px;
+}
+
+.needsSpace {
+  margin-bottom: 180px;
+}
+
+.needsLittleSpace {
+  margin-bottom: 120px;
+}

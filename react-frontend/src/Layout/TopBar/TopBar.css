@@ -1,0 +1,23 @@
+.titles {
+  color: black;
+  text-decoration: none;
+  text-align: right;
+  margin-right: 5px;
+  font-family: "Andale Mono";
+}
+.titles:hover,
+.titles:active {
+  font-weight: bolder;
+  color: black;
+}
+
+.logotype {
+  font-family: "Norwester";
+  color: black;
+  text-decoration: none;
+}
+
+.logotype:active,
+.logotype:hover {
+  color: black;
+}

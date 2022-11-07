@@ -1,0 +1,186 @@
+.App {
+  text-align: center;
+}
+
+@font-face {
+  font-family: "Andale Mono"; /*Can be any text*/
+  src: local("Andale Mono"),
+    url("../../Layout/Font/Andale\ Mono.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Impact"; /*Can be any text*/
+  src: local("Impact"), url("../../Layout/Font/Impact.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Norwester"; /*Can be any text*/
+  src: local("Norwester"),
+    url("../../Layout/Font/norwester.otf") format("opentype");
+}
+
+.App-logo {
+  height: 47vmin;
+  pointer-events: none;
+}
+
+nav {
+  background-color: #a7dafb;
+  color: white;
+}
+
+.mainbody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  color: #424242;
+}
+
+@media (max-width: 900px) {
+}
+
+@media (max-width: 500px) {
+}
+
+@media (min-width: 501px) {
+}
+
+.signInButton {
+  margin: 0 auto;
+  border-radius: 3px;
+  border: 4px solid #b1d6a7;
+  background-color: #b1d6a7;
+  display: block;
+  font-family: "Andale Mono";
+  font-weight: bolder;
+  font-size: 20px;
+  padding: 18px 50px;
+  margin-top: 30px;
+  text-transform: uppercase;
+  transition: all 400ms ease-in-out;
+}
+
+.signInButton:hover {
+  background-color: #ffffff;
+  border: 4px solid #b1d6a7;
+  color: #b1d6a7;
+  cursor: pointer;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} 
+
+ @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+::placeholder {
+  color: #fffefe;
+  font-family: "Andale Mono";
+  font-size: 20px;
+}
+
+.input_label {
+  display: block;
+  border-radius: 4px;
+  border: 1px;
+  color: #424242;
+  font-family: "Andale Mono";
+  font-weight: bolder;
+  font-size: 20px;
+  padding: 20px 50px;
+  transition: all 400ms ease-in-out;
+}
+
+.user_input {
+  margin: 0 auto;
+  background-color: #69656c;
+  color: #fbf9fd;
+  border-radius: 4px;
+  border: 1px;
+  width: 80%;
+  text-align: left;
+  display: block;
+  font-family: "Andale Mono";
+  font-weight: bolder;
+  font-size: 20px;
+  padding: 20px 50px;
+  margin-top: 20px;
+  margin-bottom: -10px;
+  transition: all 400ms ease-in-out;
+}
+
+.submitButton {
+  border-radius: 4px;
+  border: 4px solid #b1d6a7;
+  background-color: #b1d6a7;
+  font-family: "Andale Mono";
+  font-weight: bolder;
+  font-size: 20px;
+  padding: 20px 50px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  transition: all 400ms ease-in-out;
+}
+
+.submitButton:hover {
+  background-color: #ffffff;
+  border: 4px solid #b1d6a7;
+  color: #b1d6a7;
+  cursor: pointer;
+}
+
+.createAccountButton {
+  border-radius: 4px;
+  background-color: #fffaaf;
+  border: 4px solid #fffaaf;
+  color: #424242;
+  font-family: "Andale Mono";
+  font-weight: bolder;
+  font-size: 20px;
+  padding: 20px 20px;
+  margin-top: 30px;
+  text-transform: uppercase;
+  transition: all 400ms ease-in-out;
+}
+
+.existingAccountButton {
+  border-radius: 4px;
+  background-color: #fffaaf;
+  border: 4px solid #fffaaf;
+  color: #424242;
+  font-family: "Andale Mono";
+  font-weight: bolder;
+  font-size: 20px;
+  padding: 20px 20px;
+  word-wrap: break-word;
+  margin-top: 30px;
+  text-transform: uppercase;
+  transition: all 400ms ease-in-out;
+}
+
+.createAccountButton:hover,
+.existingAccountButton:hover {
+  background-color: #ffffff;
+  border: 4px solid #fffaaf;
+  color: #fffaaf;
+  cursor: pointer;
+}
+
+.largeButton {
+  padding: 0px 70px;
+}
+
+p {
+  margin: 20px;
+}

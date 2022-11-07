@@ -1,0 +1,107 @@
+.button,
+.backButton,
+.btnone,
+.btntwo {
+  border-radius: 2px;
+  background-color: #a7dafb;
+  border: 4px solid #a7dafb;
+  color: #424242;
+  display: block;
+  margin: 0 auto;
+  font-family: "Andale Mono";
+  font-weight: bolder;
+  font-size: 20px;
+  padding: 20px;
+  margin-top: 0px;
+  text-transform: uppercase;
+  transition: all 400ms ease-in-out;
+}
+
+.btnone {
+  background-color: #fffaaf;
+  border: 4px solid #fffaaf;
+  padding: 20px 50px;
+  margin-top: 30px;
+}
+.btntwo {
+  background-color: #b1d6a7;
+  border: 4px solid #b1d6a7;
+  padding: 20px 26px;
+  margin-top: 30px;
+}
+
+.backButton {
+  margin-top: 30px;
+}
+
+.button:hover,
+.backButton:hover,
+.btnone:hover,
+.btntwo:hover {
+  background-color: #ffffff;
+  border: 4px solid #a7dafb;
+  color: #a7dafb;
+  cursor: pointer;
+}
+.btnone:hover {
+  border: 4px solid #fffaaf;
+  color: #fffaaf;
+}
+
+.btntwo:hover {
+  border: 4px solid #b1d6a7;
+  color: #b1d6a7;
+}
+
+.link {
+  color: #424242;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #a7dafb;
+}
+
+h2,
+p {
+  font-family: "Andale Mono";
+  font-weight: bolder;
+  font-size: 20px;
+  letter-spacing: -1px;
+  text-transform: none;
+}
+
+p {
+  font-weight: 200;
+}
+
+.insulinSignButton {
+  border-radius: 4px;
+  background-color: #fffaaf;
+  border: 4px solid #fffaaf;
+  color: #424242;
+  font-family: "Andale Mono";
+  font-weight: bolder;
+  font-size: 20px;
+  padding: 20px 40px;
+  word-wrap: break-word;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  transition: all 400ms ease-in-out;
+}
+
+.insulinSignButton:hover {
+  background-color: #ffffff;
+  border: 4px solid #fffaaf;
+  color: #fffaaf;
+  cursor: pointer;
+}
+
+.largeButton {
+  padding: 0px 70px;
+}
+
+.needsSpace {
+  margin-bottom: 240px;
+}

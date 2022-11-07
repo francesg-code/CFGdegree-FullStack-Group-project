@@ -1,0 +1,7 @@
+body {
+  margin: 0;
+  font-family: "Andale Mono";
+  text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

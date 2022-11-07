@@ -34,7 +34,7 @@
     - react-firebase-hooks
 
 ## Features
-List the ready features here:
+
 - Calculate insulin dose
 - Food calculator - find carbohydrate content for a specific food
 - Save latest insulin dose along with time taken
